@@ -1,0 +1,305 @@
+@media screen and (max-width: 900px) {
+    .m-padding{
+        padding: 140px 0;
+    }
+    .padding{
+      padding: 180px 0 0 0;
+    }
+    main{
+        padding: 0 20px;
+    }
+    .botao-amarelo{
+      font-size: 17px;
+      padding: 15px 30px;
+    }
+    .title{
+      font-size: 53px;
+      text-align: center;
+      font-family: 'bl';
+      font-weight: 100;
+      line-height: 72px;
+    }
+    .res-center{
+      text-align: center;
+    }
+    .margin2{
+      margin-bottom: 30px;
+    }
+    .margin{
+      margin-top: 40px;
+      margin-bottom: 60px;
+    }
+
+
+    /* TODO: CARD CTA */
+
+    .card-in{
+      flex-direction: column;
+      display: flex;
+      gap: 50px;
+      padding: 40px 0;
+    }
+    .card-in span{
+      width: fit-content;
+      font-size: 44px;
+      line-height: 50px;
+      text-align: center;
+    }
+    .card{
+      padding: 40px 40px;
+      height: fit-content;
+    }
+    .botao-main{
+      color: var(--nosso-branco);
+      background-color: #dca883;
+      font-family: 'mm';
+    }
+
+
+
+    /* TODO: ZAP ZAP */
+    .call-to-action {
+      padding: 0 14px 35px;
+    }
+    .call-to-action a{
+      outline: 10px solid red;
+      height: 78px
+    }
+    .call-to-action svg{
+      animation: none;
+      transition: none;
+    }
+
+
+
+    /* TODO: FOOTER */
+    footer{
+      display: flex;
+      flex-direction: column;
+      height: 55px;
+      position: relative;
+      padding: 8px 0 0 0;
+      justify-content: normal;
+    }
+    footer div{
+      display: flex;
+      justify-content: center;
+      bottom: 8px;
+
+    }
+    /* TODO: LOCALIZAÇÃO */
+
+    .sectionloc{
+      flex-direction: column;
+      gap: 5rem;
+    }
+    .sectionloc iframe{
+      width: 350px;
+    }
+    .endereco{
+      width: 250px;
+      font-size: 17px;
+      font-family: 'ml';
+    }
+    .seta-descolada{
+      margin: -70px 0 0 80px;
+    }
+    .spamei{
+      margin: -80px 0 0 140px;
+    }
+    .mark picture img{
+      width: 70px;
+    }
+
+
+
+    /* TODO: FAQ */
+    .question button span{
+      text-align: start;
+      font-size: 18px;
+      max-width: 220px;
+    }
+    #faq rect{
+      width: 30px;
+    }
+    .question button{
+      padding: 25px 15px 10px 20px;
+    }
+    .question p.show {
+      max-height: 400px;
+      padding: 20px 15px 20px 20px;
+    }
+    .question p{
+      font-size: 17px;
+      padding: 20px 15px 0px 20px;
+    }
+    
+
+
+    /* TODO: DEPOIMENTO */
+
+    .dep{
+      margin-left: 0;
+    }
+    .text-dep h2{
+    margin: 0 0 50px 0;
+    }
+    .cards-dep{
+      flex-direction: column;
+    }
+    .card-dep{
+      padding: 25px;
+      font-size: 19px;
+      line-height: 26px;
+    }
+    .card-dep p{
+      margin-bottom: 0;
+    }
+    .text-dep{
+      margin-bottom: 0;
+    }
+    .prove-name{
+      font-size: 17px;
+    }
+    .name{
+      font-size: 20px;
+      letter-spacing: -1px;
+    }
+    .foto{
+      gap: 1rem;
+    }
+    .foto img{
+      width: 50px;
+    }
+
+
+    /* TODO: PARA EMPRESA */
+
+    .card-empresa{
+      width: fit-content;
+      padding: 35px;
+    }
+    .normal-text{
+      line-height: 27px;
+    }
+    .destaque-verde{
+      padding: 1px 5px;
+    }
+
+    /* TODO: PREÇO */
+
+    .organizacao-preco{
+      flex-direction: column;
+      align-items: center;
+      gap: 6rem;
+    }
+    .card-empresa2{
+      width: fit-content;
+      padding: 10px 30px 30px 30px;
+    }
+    .card-empresa3{
+      padding: 40px 30px;
+      width: fit-content;
+      gap: 1.5rem;
+    }
+    .typed{
+      margin: 20px 0 160px 0;
+      flex-direction: column;
+    }
+    .seta-descolada-valo{
+      margin: -110px 0 0 50px;
+    }
+    .spamei-valo{
+      margin: -125px 0 0 110px;
+    }
+
+    /* TODO: BENEFÍCIO */
+    .container-linha{
+      flex-direction: column;
+      gap: 0;
+    }
+    .linha svg{
+      width: 260px;
+      margin-top: 70px;
+    }
+    .linha{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      margin-bottom: 20px;
+    }
+    .bene-text h3{
+      color: black;
+      font-weight: 100;
+    }
+    .bene-text p{
+      text-align: center;
+      color: black;
+    }
+    .bene{
+      flex-direction: column;
+      align-items: center;
+    }
+    .bene-text{
+      align-items: center;
+    }
+    .bene img{
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
+    .spamei-bene{
+      position: absolute;
+      margin: 40px 0 0 10px;
+      text-align: center;
+    }
+    .seta-descolada-bene{
+      position: absolute;
+      margin: 90px 0 0 60px;
+      rotate: 10deg;
+      transform: scaleX(1) !important;
+    }
+    .modal{
+      width: 100%;
+      bottom: 0;
+      border-radius: 18px 18px 0 0;
+      overflow-y: scroll;
+      
+      max-height: 80vh;
+    }
+    .text-modal {
+      padding: 0px 35px 35px 35px;
+  }
+    .modal-h5{
+      font-weight: 100;
+      margin-bottom: 40px;
+      font-size: 30px;
+    }
+    .container-modal{
+      align-items: end;
+      transition: opacity 0.5s ease;
+    }
+
+    /* TODO: MÉTODOS */
+    .titulo-aulas{
+      margin-bottom: 50px;
+    }
+    .container-metodos{
+      flex-direction: column;
+      /* width: fit-content; */
+    }
+    .gap-bet{
+      margin: 0;
+    }
+    .botao-amarelo{
+      display: block;
+    }
+    .linha-modelo{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .pro-lado{
+      margin: 0;
+    }
+  }
+
